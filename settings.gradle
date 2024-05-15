@@ -9,5 +9,7 @@
 
 rootProject.name = 'java-microservices-async'
 
-include 'product-service'
+include 'product'
+include 'inventory'
+include 'order'
 
