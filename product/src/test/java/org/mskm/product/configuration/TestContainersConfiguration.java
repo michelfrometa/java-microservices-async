@@ -10,7 +10,7 @@ public class TestContainersConfiguration {
 
     @Bean
     @ServiceConnection
-    MongoDBContainer neo4jContainer() {
+    MongoDBContainer mongoDBContainer() {
         return new MongoDBContainer("mongo:latest")
                 .withReuse(true)
                 .withExposedPorts(27017);
